@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <h1 class="text-center">Genres</h1>
+    <table class="table text-center">
+        <thead>
+        <tr>
+            <th scope="col">Number</th>
+            <th scope="col">Title</th>
+            <th scope="col"></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>komedie</td>
+            <td><a class="btn btn-warning" href="/Genre/1" role="button">Link</a></td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>drama</td>
+            <td><a class="btn btn-warning" href="/Genre/2" role="button">Link</a></td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>action</td>
+            <td><a class="btn btn-warning" href="/Genre/3" role="button">Link</a></td>
+        </tr>
+        <tr>
+            <th scope="row">4</th>
+            <td>fantasie</td>
+            <td><a class="btn btn-warning" href="/Genre/4" role="button">Link</a></td>
+        </tr>
+        </tbody>
+    </table>
+    <td><a class="btn btn-warning" href="/insert" role="button">new genre</a></td>
+{% endblock %}
